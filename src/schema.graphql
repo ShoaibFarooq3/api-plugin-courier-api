@@ -1,0 +1,16 @@
+extend type Order {
+    shipmentLabel:shipmentLabelPayLoad
+}
+type shipmentLabelPayLoad {
+    type: String
+    request_id: String
+    tracking_codes: [String]
+    tracking_urls: [String]
+    uri:String
+    key: String
+    dc_request_id:String
+    tracking_request_id: String
+    tracking_request_hash: String
+    label_size: String
+    courier: String
+}
