@@ -14,7 +14,7 @@ var _context = null;
 const resolvers = {
   Order:{
     async shipmentLabel(parent, args, context, info){
-      // console.log("shipmentLabel",parent);
+       console.log("shipmentLabel",parent);
       return parent.shipmentLabel;
     }
   },
